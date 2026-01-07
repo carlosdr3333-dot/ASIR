@@ -1,3 +1,5 @@
 # Memoria servicio de streaming
 
-![Imágen](radio.jpeg)
+<p align="center">
+  <img src="radio.png" width="400">
+</p>
