@@ -3,3 +3,5 @@
 <p align="center">
   <img src="radio.png" width="400">
 </p>
+
+Carlos Durán Román
