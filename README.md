@@ -1,8 +1,6 @@
-<h1 align="center">Memoria de servicio de streaming</h1>
+# Memoria de servicio de streaming
 
-<p align="center">
-  <img src="radio.png" width="400">
-</p>
+![Radio](radio.png)
 
 Carlos Durán Román
 
@@ -11,3 +9,13 @@ Carlos Durán Román
 # Icecast2
 
 ## Introducción
+
+# FFmpeg
+
+## Introducción
+
+Para esta práctica con FFmpeg, vamos a descargarnos un video y luego vamos a ver los datos que tenemos del video descargardo, luego cambiaremos los codecs y crearemos un fichero con un bitrate determinado.
+
+## Ejercicio 1 Instalación de FFmpeg
+
+Para instalar FFmpeg, vamos a utilizar el siguiente comando en nuestra máquina ubuntu
