@@ -8,11 +8,28 @@ Carlos Durán Román
 
 # Índice
 
-
+- [Icecast2](#Icecast2)
+  - [Introducción](#Introducción)
+  - [Servidor de streaming](#Servidor-de-streaming)
+- [FFmpeg](#FFmpeg)
+  - [Introducción](#Introducción)
+  - [Ejercicio1](#Ejercicio1-Instalación-de-FFmpeg)
+- [Anexo](#Anexo)
 
 # Icecast2
 
 ### Introducción
+
+Para esta práctica vamos a utilizar icecast2, el objetivo es crear una radio online para que todos los oyentes que se conecten escuches lo que yo quiera
+
+### Servidor-de-streaming
+
+Para intalar icecast2 vamos a utilizar el siguiente comando en nuestro ubuntu
+
+```
+apt-get install icecast2
+```
+
 
 # FFmpeg
 
@@ -20,7 +37,7 @@ Carlos Durán Román
 
 Para esta práctica con FFmpeg, vamos a descargarnos un video y luego vamos a ver los datos que tenemos del video descargardo, luego cambiaremos los codecs y crearemos un fichero con un bitrate determinado.
 
-### Ejercicio 1 Instalación de FFmpeg
+### Ejercicio1-Instalación-de-FFmpeg
 
 Para instalar FFmpeg, vamos a utilizar el siguiente comando en nuestra máquina ubuntu
 
