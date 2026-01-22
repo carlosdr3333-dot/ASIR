@@ -24,12 +24,13 @@ Para esta práctica vamos a utilizar icecast2, el objetivo es crear una radio on
 
 ### Servidor-de-streaming
 
-Para intalar icecast2 vamos a utilizar el siguiente comando en nuestro ubuntu
+Para instalar icecast2 vamos a utilizar el siguiente comando en nuestro ubuntu
 
 ```
 apt-get install icecast2
 ```
 
+Al poner este comando, nos aparecerá una pantalla morada, en la primera pantalla le daremos que si, en la segunda nos saldrá que pongamos un nombre al servidor, lo dejaremos por defecto o también lo podemos cambiar, la tercera pantalla será la contraseña, eso pondremos la que queramos, nos lo pedirá 3 veces mas, una vez hecho todo esto, se instalará icecast2
 
 # FFmpeg
 
