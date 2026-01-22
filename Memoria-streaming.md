@@ -6,6 +6,10 @@ Carlos Durán Román
 
 2ASIR
 
+# Índice
+
+
+
 # Icecast2
 
 ### Introducción
@@ -30,6 +34,12 @@ Una vez instalado, vamos a descargarnos un video y vamos a utilizar el siguinte 
 ffprobe -v error -show_streams fichero.mp4
 ```
 
-Y al usar el comando nos mostrará toda la información del video
+Y al usar el comando nos mostrará toda la información del video [Imágen](#ffprobe)
 
 # Anexo
+
+## ffprobe
+
+<p align="center">
+  <img src="img/ffprobe.png"  width="700px">
+</p>
