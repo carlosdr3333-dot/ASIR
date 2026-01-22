@@ -1,6 +1,6 @@
 # Memoria de servicio de streaming
 
-![Radio](radio.png)
+![Radio](img/radio.png)
 
 Carlos Durán Román
 
