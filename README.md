@@ -19,3 +19,17 @@ Para esta práctica con FFmpeg, vamos a descargarnos un video y luego vamos a ve
 ### Ejercicio 1 Instalación de FFmpeg
 
 Para instalar FFmpeg, vamos a utilizar el siguiente comando en nuestra máquina ubuntu
+
+```
+apt-get install ffmpeg
+```
+
+Una vez instalado, vamos a descargarnos un video y vamos a utilizar el siguinte comando para localizar la información que tiene el video descargado
+
+```
+ffprobe -v error -show_streams fichero.mp4
+```
+
+Y al usar el comando nos mostrará toda la información del video
+
+# Anexo
