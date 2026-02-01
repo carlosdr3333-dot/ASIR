@@ -15,6 +15,7 @@ Carlos Durán Román
   - [Introducción](#Introducción)
   - [Instalación FFmpeg](#Instalación-de-FFmpeg)
   - [Cambio de contenedor](#Cambio-de-contenedor)
+  - [Cambio de códecs](#Cambio-de-códecs-y-comparación)
 - [Anexo](#Anexo)
 
 # Icecast2
@@ -67,6 +68,10 @@ ffmpeg -i big-buck-bunny-1080p-30sec.mp4 -c:v copy -c:a copy big-buck-bunny-1080
 Aqui podemos comprobar que ha funcionado correctamente [Imágen](#Cambio-contenedor)
 
 Podemos comprobar mediante esta imágen, que al cambiar de contenedor el video que tenemos, no ha vaariado el tamañao de este [Imágen](#Peso-imagenes)
+
+Este comando no me ha tardado y no me ha consumido casi nada de CPU, porque este comando se encarga de copiar los datos del video MP4 y los vuelve a guardar como MKV. Como no tiene que descomprimir ni volver a comprimir, solo tiene que leer y escribir datos en el disco.
+
+### Cambio-de-códecs-y-comparación
 
 # Anexo
 
