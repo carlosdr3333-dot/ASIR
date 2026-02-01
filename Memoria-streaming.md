@@ -73,6 +73,14 @@ Este comando no me ha tardado y no me ha consumido casi nada de CPU, porque este
 
 ### Cambio-de-códecs-y-comparación
 
+Primero vamos a crear un archivo en H.264 con un bitrate de 2Mbps del video anterior con el siguiente comando
+
+```
+ffmpeg -i big-buck-bunny-1080p-30sec.mp4 -c:v libx264 -b:v 2M -c:a copy big-buck-bunny-1080p-30sec-h264_2mbps.mp4
+```
+
+Con este imagen se puede comprobar que ha funcionado correctamente [Imágen](
+
 # Anexo
 
 ## ffprobe
