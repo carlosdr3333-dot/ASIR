@@ -14,6 +14,7 @@ Carlos Durán Román
 - [FFmpeg](#FFmpeg)
   - [Introducción](#Introducción)
   - [Instalación FFmpeg](#Instalación-de-FFmpeg)
+  - [Metadatos con FFmpeg](#Metadatos-con-FFmpeg)
   - [Cambio de contenedor](#Cambio-de-contenedor)
   - [Cambio de códecs](#Cambio-de-códecs-y-comparación)
 - [Anexo](#Anexo)
@@ -47,6 +48,8 @@ Para instalar FFmpeg, vamos a utilizar el siguiente comando en nuestra máquina 
 ```
 apt-get install ffmpeg
 ```
+
+### Metadatos-con-FFmpeg
 
 Una vez instalado, vamos a descargarnos un video y vamos a utilizar el siguinte comando para localizar la información que tiene el video descargado
 
@@ -93,6 +96,10 @@ Ahora, vamos a comparar varios archivos, el video h.264 va a tirones, pero el h.
 
 Ahora vamos a comparar el peso de los dos archivos, podemos observar que el video H.265 pesa un poco mas que el H.264, aunque la diferencia sea muy mínima [Imágen](#Peso-codec)
 
+### Simulacion-streaming
+
+
+
 # Anexo
 
 ## ffprobe
@@ -128,5 +135,5 @@ Ahora vamos a comparar el peso de los dos archivos, podemos observar que el vide
 ## Peso-codec
 
 <p align="center">
-  <img src="img/h265.png"  width="700px">
+  <img src="img/Peso-codec.png"  width="700px">
 </p>
