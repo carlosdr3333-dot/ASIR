@@ -105,6 +105,7 @@ Bitrate: 400k
 Resolución: 1080p
 Bitrate: 2Mbps
 
+
 #### Pregunta 1:
 
 
@@ -123,6 +124,7 @@ Bitrate: 2Mbps
 **500 ÷ 0,9 ≈ 555 horas**
 
 -Se podrán alojar 555 horas de vídeo en el disco de 500GB
+
 
 #### Pregunta 2:
 
