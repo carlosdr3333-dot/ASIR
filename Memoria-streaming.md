@@ -89,6 +89,10 @@ ffmpeg -i big-buck-bunny-1080p-30sec.mp4 -c:v libx265 -b:v 2M -c:a copy big-buck
 
 Con este imagen se puede comprobar que ha funcionado correctamente [Imágen](#h265.png)
 
+Ahora, vamos a comparar varios archivos, el video h.264 va a tirones, pero el h.265 va mucho mejor, esto es así ya que h.265 es un códec más eficiente, porque utiliza una compresión que permite aprovechar el bitrate. Como tienen la misma tasa de bits, H.265 reduce los artefactos visibles, sobretodo en las escenas con mucho movimiento, esto mantiene más detalle y una imagen más limpia.
+
+Ahora vamos a comparar el peso de los dos archivos, podemos observar que el video H.265 pesa un poco mas que el H.264, aunque la diferencia sea muy mínima [Imágen](#Peso-codec)
+
 # Anexo
 
 ## ffprobe
@@ -116,6 +120,12 @@ Con este imagen se puede comprobar que ha funcionado correctamente [Imágen](#h2
 </p>
 
 ## H265
+
+<p align="center">
+  <img src="img/h265.png"  width="700px">
+</p>
+
+## Peso-codec
 
 <p align="center">
   <img src="img/h265.png"  width="700px">
