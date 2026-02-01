@@ -13,7 +13,8 @@ Carlos Durán Román
   - [Servidor de streaming](#Servidor-de-streaming)
 - [FFmpeg](#FFmpeg)
   - [Introducción](#Introducción)
-  - [Ejercicio1](#Ejercicio1-Instalación-de-FFmpeg)
+  - [Instalación-FFmpeg](#Instalación-de-FFmpeg)
+  - [Cambio de contenedor](Cambio-de-contenedor)
 - [Anexo](#Anexo)
 
 # Icecast2
@@ -55,6 +56,14 @@ ffprobe -v error -show_streams fichero.mp4
 
 Y al usar el comando nos mostrará toda la información del video [Imágen](#ffprobe) 
 
+### Cambio-de-contenedor
+
+Ahora vamos a cambiar el contenedor de .mp4 a .mkv con el siguiente comando
+
+```
+ffmpeg -i big-buck-bunny-1080p-30sec.mp4 -c:v copy -c:a copy big-buck-bunny-1080p-30sec.mkv
+```
+
 # Anexo
 
 ## ffprobe
@@ -63,4 +72,3 @@ Y al usar el comando nos mostrará toda la información del video [Imágen](#ffp
   <img src="img/ffprobe.png"  width="700px">
 </p>
 
-[Volver](#vuelta1)
