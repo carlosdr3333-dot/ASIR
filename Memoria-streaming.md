@@ -66,7 +66,7 @@ ffmpeg -i big-buck-bunny-1080p-30sec.mp4 -c:v copy -c:a copy big-buck-bunny-1080
 
 Aqui podemos comprobar que ha funcionado correctamente [Imágen](#Cambio-contenedor)
 
-
+Podemos comprobar mediante esta imágen, que al cambiar de contenedor el video que tenemos, no ha vaariado el tamañao de este [Imágen](#Peso-imagenes)
 
 # Anexo
 
@@ -80,4 +80,10 @@ Aqui podemos comprobar que ha funcionado correctamente [Imágen](#Cambio-contene
 
 <p align="center">
   <img src="img/Cambio-contenedor.png"  width="700px">
+</p>
+
+## Peso-imagenes
+
+<p align="center">
+  <img src="img/Peso-imagenes.png"  width="700px">
 </p>
