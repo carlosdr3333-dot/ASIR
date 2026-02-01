@@ -39,7 +39,7 @@ Al poner este comando, nos aparecerá una pantalla morada, en la primera pantall
 
 Para esta práctica con FFmpeg, vamos a descargarnos un video y luego vamos a ver los datos que tenemos del video descargardo, luego cambiaremos los codecs y crearemos un fichero con un bitrate determinado.
 
-### Ejercicio1-Instalación-de-FFmpeg
+### Instalación-de-FFmpeg
 
 Para instalar FFmpeg, vamos a utilizar el siguiente comando en nuestra máquina ubuntu
 
