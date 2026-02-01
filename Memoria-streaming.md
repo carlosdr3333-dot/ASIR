@@ -79,7 +79,15 @@ Primero vamos a crear un archivo en H.264 con un bitrate de 2Mbps del video ante
 ffmpeg -i big-buck-bunny-1080p-30sec.mp4 -c:v libx264 -b:v 2M -c:a copy big-buck-bunny-1080p-30sec-h264_2mbps.mp4
 ```
 
-Con este imagen se puede comprobar que ha funcionado correctamente [Imágen](
+Con este imagen se puede comprobar que ha funcionado correctamente [Imágen](#h264.png)
+
+Y ahora vamos a hacer lo mismo, pero con H.265
+
+```
+ffmpeg -i big-buck-bunny-1080p-30sec.mp4 -c:v libx265 -b:v 2M -c:a copy big-buck-bunny-1080p-30sec-h265_2mbps.mp4
+```
+
+Con este imagen se puede comprobar que ha funcionado correctamente [Imágen](#h265.png)
 
 # Anexo
 
@@ -99,4 +107,16 @@ Con este imagen se puede comprobar que ha funcionado correctamente [Imágen](
 
 <p align="center">
   <img src="img/Peso-imagenes.png"  width="700px">
+</p>
+
+## H264
+
+<p align="center">
+  <img src="img/h264.png"  width="700px">
+</p>
+
+## H265
+
+<p align="center">
+  <img src="img/h265.png"  width="700px">
 </p>
