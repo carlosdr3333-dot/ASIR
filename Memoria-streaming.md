@@ -13,8 +13,8 @@ Carlos Durán Román
   - [Servidor de streaming](#Servidor-de-streaming)
 - [FFmpeg](#FFmpeg)
   - [Introducción](#Introducción)
-  - [Instalación-FFmpeg](#Instalación-de-FFmpeg)
-  - [Cambio-de-contenedor](Cambio-de-contenedor)
+  - [Instalación FFmpeg](#Instalación-de-FFmpeg)
+  - [Cambio de contenedor](#Cambio-de-contenedor)
 - [Anexo](#Anexo)
 
 # Icecast2
