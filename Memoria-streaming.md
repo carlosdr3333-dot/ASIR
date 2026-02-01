@@ -64,7 +64,7 @@ Ahora vamos a cambiar el contenedor de .mp4 a .mkv con el siguiente comando
 ffmpeg -i big-buck-bunny-1080p-30sec.mp4 -c:v copy -c:a copy big-buck-bunny-1080p-30sec.mkv
 ```
 
-
+[Imágen](#Cambio-contenedor)
 
 # Anexo
 
@@ -74,3 +74,8 @@ ffmpeg -i big-buck-bunny-1080p-30sec.mp4 -c:v copy -c:a copy big-buck-bunny-1080
   <img src="img/ffprobe.png"  width="700px">
 </p>
 
+## Cambio-contenedor
+
+<p align="center">
+  <img src="img/Cambio-contenedor.png"  width="700px">
+</p>
