@@ -27,7 +27,7 @@ Para esta práctica vamos a utilizar icecast2, el objetivo es crear una radio on
 
 ### Servidor-de-streaming
 
-Vamos a configurarnos una ip fija para eso, vamos a ir a /etc/netplan y vamos a configurarnos una ip [Imágen]
+Vamos a configurarnos una ip fija para eso, vamos a ir a /etc/netplan y vamos a configurarnos una ip [Imágen](#netplan)
 
 Para instalar icecast2 vamos a utilizar el siguiente comando en nuestro ubuntu
 
@@ -149,10 +149,10 @@ Bitrate: 2Mbps
 
 # Anexo
 
-## Icecast2-ip
+## netplan
 
 <p align="center">
-  <img src="img/ffprobe.png"  width="700px">
+  <img src="img/netplan.png"  width="700px">
 </p>
 
 ## ffprobe
