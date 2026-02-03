@@ -11,6 +11,7 @@ Carlos Durán Román
 - [Icecast2](#Icecast2)
   - [Introducción](#Introducción)
   - [Servidor de streaming](#Servidor-de-streaming)
+  - [Cliente DJ](#Cliente-DJ)
 - [FFmpeg](#FFmpeg)
   - [Introducción](#Introducción)
   - [Instalación FFmpeg](#Instalación-de-FFmpeg)
@@ -36,6 +37,20 @@ apt-get install icecast2
 ```
 
 Al poner este comando, nos aparecerá una pantalla morada, en la primera pantalla le daremos que si, en la segunda nos saldrá que pongamos un nombre al servidor, lo dejaremos por defecto o también lo podemos cambiar, la tercera pantalla será la contraseña, eso pondremos la que queramos, nos lo pedirá 3 veces mas, una vez hecho todo esto, se instalará icecast2
+
+### Cliente-DJ
+
+Primero, tenemos que tenerlo configurado como adaptador puente para que se pueda ver con la máquina del servidor de streaming, luego vamos a tener que isntalarnos Mixxx con los siguientes comandos
+
+```
+add-apt-repository ppa:mixxx/mixxx
+```
+
+```
+apt install mixxx
+```
+
+
 
 # FFmpeg
 
