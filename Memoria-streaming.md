@@ -181,7 +181,7 @@ Bitrate: 2Mbps
 ## Configuración
 
 <p align="center">
-  <img src="img/Mixx-interfaz.png"  width="700px">
+  <img src="img/Configuracion.png"  width="700px">
 </p>
 
 ## ffprobe
