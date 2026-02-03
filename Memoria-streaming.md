@@ -86,7 +86,7 @@ apt-get install ffmpeg
 Una vez instalado, vamos a descargarnos un video y vamos a utilizar el siguinte comando para localizar la información que tiene el video descargado
 
 ```
-ffprobe -v error -show_streams fichero.mp4
+ffprobe -v error -show_streams big-buck-bunny-1080p-30sec.mp4
 ```
 <a name="vuelta1"></a>
 
