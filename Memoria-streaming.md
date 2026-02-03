@@ -1,10 +1,14 @@
+<div align="center">
+
 # Memoria de servicio de streaming
 
-![Radio](img/radio.png)
+<img src="img/radio.png" alt="Radio" width="200">
 
-Carlos Durán Román
-
+**Carlos Durán Román**  
 2ASIR
+
+</div>
+
 
 # Índice
 
@@ -88,7 +92,6 @@ Una vez instalado, vamos a descargarnos un video y vamos a utilizar el siguinte 
 ```
 ffprobe -v error -show_streams big-buck-bunny-1080p-30sec.mp4
 ```
-<a name="vuelta1"></a>
 
 Y al usar el comando nos mostrará toda la información del video [Imágen](#ffprobe) 
 
