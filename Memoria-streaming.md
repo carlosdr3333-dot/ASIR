@@ -200,7 +200,7 @@ Bitrate: 2Mbps
 ## Comprabación
 
 <p align="center">
-  <img src="img/comprobacion.png"  width="700px">
+  <img src="img/Comprobacion.png"  width="700px">
 </p>
 
 ## ffprobe
