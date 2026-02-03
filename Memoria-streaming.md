@@ -52,6 +52,8 @@ apt install mixxx
 
 Una vez puesto estos comandos, se instalrá mixxx y lo podremos buscar desde el panel de aplicaciones, esta es su interfaz gráfica [Imágen](#interfaz)
 
+Ahora, para configurar la emisión en vivo, tenemos que ir a ajustes de mixxx, a preferencias y luego a live broadcasting y poner la ip del servidor, el usuario que es source y la contraseña que hemos configurado anteriormente en la instalación de icecast2 [Imágen](#Configuración)
+
 # FFmpeg
 
 ### Introducción2
@@ -173,7 +175,13 @@ Bitrate: 2Mbps
 ## interfaz
 
 <p align="center">
-  <img src="img/mixx-interfaz.png"  width="700px">
+  <img src="img/Mixx-interfaz.png"  width="700px">
+</p>
+
+## Configuración
+
+<p align="center">
+  <img src="img/Mixx-interfaz.png"  width="700px">
 </p>
 
 ## ffprobe
