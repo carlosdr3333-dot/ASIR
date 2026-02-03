@@ -50,7 +50,7 @@ add-apt-repository ppa:mixxx/mixxx
 apt install mixxx
 ```
 
-Una vez puesto estos comandos, se instalrá mixxx y lo podremos buscar desde el panel de aplicaciones, esta es su interfaz gráfica [Imágen](#mixx-interfaz)
+Una vez puesto estos comandos, se instalrá mixxx y lo podremos buscar desde el panel de aplicaciones, esta es su interfaz gráfica [Imágen](#interfaz)
 
 # FFmpeg
 
