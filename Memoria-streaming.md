@@ -12,6 +12,7 @@ Carlos Durán Román
   - [Introducción](#Introducción)
   - [Servidor de streaming](#Servidor-de-streaming)
   - [Cliente DJ](#Cliente-DJ)
+  - [Comprobación](#Comprobación)
 - [FFmpeg](#FFmpeg)
   - [Introducción](#Introducción2)
   - [Instalación FFmpeg](#Instalación-de-FFmpeg)
@@ -53,6 +54,18 @@ apt install mixxx
 Una vez puesto estos comandos, se instalrá mixxx y lo podremos buscar desde el panel de aplicaciones, esta es su interfaz gráfica [Imágen](#interfaz)
 
 Ahora, para configurar la emisión en vivo, tenemos que ir a ajustes de mixxx, a preferencias y luego a live broadcasting y poner la ip del servidor, el usuario que es source y la contraseña que hemos configurado anteriormente en la instalación de icecast2 [Imágen](#Configuración)
+
+Una vez configurado, tan solo tendremos que darle a apply y luego a ok y en la interfaz principal, tendremos que darle a un boton que se llama on air, si está todo  configurado, ese botón se pondra en verde, para comprobar de que todo va bien, podemos volver a donde la configuración de nmixxx, donde configuramos la ip del servidor, el usuario y la contraseña y si pone connected es que está funcionando correctamente
+
+### Comprobación
+
+Para comprobarlo, vamos a ir a mi equipo principal y vamos a escribir lo siguiente en el navegador
+
+```
+http://192.168.1.135:8000/carlos
+```
+
+Es nuestra ip, seguido del puerto que usa icecast2 y el punto de montaje que hemos puesto antes en mixxx, ahora tan solo tendremos que reproducir la canción del cliente DJ y si esperamos 10 segundos se empezará a escuchar la canción que hayamos puesto [Imágen](Comprobación)
 
 # FFmpeg
 
