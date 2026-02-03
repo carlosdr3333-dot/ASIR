@@ -13,7 +13,7 @@ Carlos Durán Román
   - [Servidor de streaming](#Servidor-de-streaming)
   - [Cliente DJ](#Cliente-DJ)
 - [FFmpeg](#FFmpeg)
-  - [Introducción](#Introducción)
+  - [Introducción](#Introducción2)
   - [Instalación FFmpeg](#Instalación-de-FFmpeg)
   - [Metadatos con FFmpeg](#Metadatos-con-FFmpeg)
   - [Cambio de contenedor](#Cambio-de-contenedor)
@@ -54,7 +54,7 @@ apt install mixxx
 
 # FFmpeg
 
-### Introducción
+### Introducción2
 
 Para esta práctica con FFmpeg, vamos a descargarnos un video y luego vamos a ver los datos que tenemos del video descargardo, luego cambiaremos los codecs y crearemos un fichero con un bitrate determinado.
 
