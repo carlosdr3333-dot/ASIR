@@ -23,6 +23,7 @@
   - [Metadatos con FFmpeg](#Metadatos-con-FFmpeg)
   - [Cambio de contenedor](#Cambio-de-contenedor)
   - [Cambio de códecs](#Cambio-de-códecs-y-comparación)
+  - [Simulación streaming](#Simulacion-streaming)
 - [Anexo](#Anexo)
 
 # Icecast2
