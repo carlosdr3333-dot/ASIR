@@ -50,7 +50,7 @@ add-apt-repository ppa:mixxx/mixxx
 apt install mixxx
 ```
 
-Una vez puesto estos comandos, se instalrá mixxx y lo podremos buscar desde el panel de aplicaciones, esta es su interfaz gráfica [Imágen]
+Una vez puesto estos comandos, se instalrá mixxx y lo podremos buscar desde el panel de aplicaciones, esta es su interfaz gráfica [Imágen](#mixx-interfaz)
 
 # FFmpeg
 
@@ -168,6 +168,12 @@ Bitrate: 2Mbps
 
 <p align="center">
   <img src="img/netplan.png"  width="700px">
+</p>
+
+## interfaz
+
+<p align="center">
+  <img src="img/mixx-interfaz.png"  width="700px">
 </p>
 
 ## ffprobe
