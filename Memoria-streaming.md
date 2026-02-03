@@ -65,7 +65,7 @@ Para comprobarlo, vamos a ir a mi equipo principal y vamos a escribir lo siguien
 http://192.168.1.135:8000/carlos
 ```
 
-Es nuestra ip, seguido del puerto que usa icecast2 y el punto de montaje que hemos puesto antes en mixxx, ahora tan solo tendremos que reproducir la canción del cliente DJ y si esperamos 10 segundos se empezará a escuchar la canción que hayamos puesto [Imágen](Comprobación)
+Es nuestra ip, seguido del puerto que usa icecast2 y el punto de montaje que hemos puesto antes en mixxx, ahora tan solo tendremos que reproducir la canción del cliente DJ y si esperamos 10 segundos se empezará a escuchar la canción que hayamos puesto [Imágen](#Comprobación)
 
 # FFmpeg
 
