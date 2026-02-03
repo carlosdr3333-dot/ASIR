@@ -197,7 +197,7 @@ Bitrate: 2Mbps
   <img src="img/Configuracion.png"  width="700px">
 </p>
 
-## Comprabación
+## Comprobación
 
 <p align="center">
   <img src="img/Comprobacion.png"  width="700px">
