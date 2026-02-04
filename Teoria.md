@@ -28,8 +28,6 @@
 
 # Topología de red
 
-![alt text](imagen/1.png)
-
 - **Unicast:** conexión 1 a 1 (estándar de internet)
     - **Mecánica:** Si hay 100 oyentes, el servidor abre 100 sockets TCP y envía la información 100 veces.
     - **Cálculo de Ancho de Banda:** $BW_{tot} = BW_{stream} \times N_{usuarios}$
@@ -125,7 +123,6 @@ Como hemos visto, la industria utiliza mucho más **TCP** que **UDP**.
 
 **Regla general:** Cuando se necesita interactuar con la otra parte, el delay no es admisible y, por tanto, se utiliza **UDP**.
 
-![alt text](/imagen/2.png)
 
 # Icecast 2
 
@@ -198,7 +195,6 @@ El audio es una onda analógica. Para digitalizarla hay que muestrearla, algo as
 
 - **Estándar:** 44,1kHz.
 
-![alt text](/imagen/3.png)
 
 ## Profundidad de bits
 Si la frecuencia de muestreo eran las “fotos” que hacíamos a la onda, la profundidad es la calidad de dicha foto. 
@@ -207,12 +203,9 @@ Se trata de la cantidad de bits que se transmiten por segundo: a mayor cantidad,
 
 - **Estándar:** 16 bit (calidad CD)
 
-![alt text](/imagen/4.png)
 
 ## Canales
 Número de audios independientes que viajan en el mismo stream.
-
-![alt text](/imagen/5.png)
 
 ## Códecs con pérdida / sin pérdida
 
@@ -447,7 +440,7 @@ ffprobe -v error -show_streams fichero.mp4
 
 > **Respuesta:** El servidor soportaría **200 usuarios** simultáneos antes de alcanzar el límite del 80%.
 
-![alt text](/imagen/6.png)
+![alt text](/img/6.png)
 
 ### ⚠️ ¡No te confundas con las letras!
 
